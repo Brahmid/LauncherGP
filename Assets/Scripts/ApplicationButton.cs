@@ -31,6 +31,13 @@ public class ApplicationButton : MonoBehaviour
     [SerializeField]
     private TMP_Text DescText;
 
+    [SerializeField]
+    private GameObject PlayBtn;
+
+    [SerializeField]
+    private GameObject InfoBtn;
+
+
     [Header("Definition")]
     [SerializeField]
     private ApplicationType Type;
@@ -59,6 +66,7 @@ public class ApplicationButton : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if(Type == ApplicationType.Info) Button.enabled = false;
     }
 
     void ButtonPresed()
@@ -72,7 +80,7 @@ public class ApplicationButton : MonoBehaviour
                 RunApplication.Instance.LaunchWeb(Path, name);
                 break;
             case ApplicationType.Info:
-                RunApplication.Instance.LaunchInfo(Path, name);
+                //RunApplication.Instance.LaunchInfo(Path, name);
                 break;
             default:
                 break;
@@ -95,5 +103,16 @@ public class ApplicationButton : MonoBehaviour
         Label.text = Name;
         DescText.text = Description;
         Image.sprite = Thumbnail;
+
+        if (Type == ApplicationType.Info)
+        {
+            PlayBtn.SetActive(false);
+            InfoBtn.SetActive(true);
+        }
+        else
+        {
+            PlayBtn.SetActive(true);
+            InfoBtn.SetActive(false);
+        }
     }
 }
