@@ -1410,6 +1410,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1205673404}
     m_Modifications:
+    - target: {fileID: 54535770622022085, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 183076655893519370, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
@@ -1420,11 +1424,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721592, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: Path
-      value: /../builds/Plantiful/FlowerDefense.exe
+      value: /../builds/GemOn/GemOn.exe
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721592, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: Type
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721592, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: Thumbnail
@@ -1538,6 +1542,10 @@ PrefabInstance:
     - target: {fileID: 4074813080955721597, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_Name
       value: GameNum5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8478270201800486691, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}

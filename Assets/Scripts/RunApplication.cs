@@ -56,7 +56,7 @@ public class RunApplication : MonoBehaviour
     {
 
         NameOfRunningProcess = name;
-        CurrentProcess = Process.Start("chrome", "--new-window --start-maximized --start-fullscreen --app=" + Application.dataPath + path);
+        CurrentProcess = Process.Start("chrome", "--new-window --start-fullscreen " + Application.dataPath + path + "  " );
     }
 
     public void LaunchInfo(string path, string name)
