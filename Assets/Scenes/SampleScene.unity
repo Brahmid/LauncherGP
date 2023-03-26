@@ -274,10 +274,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1205673404}
     m_Modifications:
-    - target: {fileID: 183076655893519370, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721592, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: Name
       value: Root Eaters
@@ -296,9 +292,10 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: d0856a1adb7576640b1e82b60b8e8fca, type: 3}
     - target: {fileID: 4074813080955721592, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: Description
-      value: Social deduction card game in which vegans try to convert omnivores
-        into their kind. To protect themselves, omnivores fight the fire with fire
-        and use roots to defeat them.
+      value: "Soci\xE1ln\u011B deduk\u010Dn\xED karetn\xED hra, ve kter\xE9 se vegani
+        sna\u017E\xED konvertovat v\u0161e\u017Eravce ke sv\xE9mu druhu. Aby se ochr\xE1nili,
+        bojuj\xED v\u0161e\u017Eravci ohe\u0148 ohn\u011Bm a pou\u017E\xEDvaj\xED
+        ko\u0159eny, aby je porazili."
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_Pivot.x
@@ -330,11 +327,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 440
+      value: 492
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 330
+      value: 369
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_LocalScale.x
@@ -378,11 +375,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1665
+      value: 1642.7
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -180
+      value: -246
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -400,10 +397,6 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4074813080955721595, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 39fa035807462d94ca7904ea3ea9ef19, type: 3}
     - target: {fileID: 4074813080955721597, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_Name
       value: GameNum6
@@ -700,8 +693,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Tyto projekty vznikly b\u011Bhem Gamer Pie Game Jamu, kter\xFD prob\u011Bhl
     v \xFAnoru v r\xE1mci mezin\xE1rodn\xED akce Global Game Jam.\n20 \xFA\u010Dastn\xEDk\u016F
-    vytvo\u0159ilo b\u011Bhem 48 hodin vytvo\u0159ilo 6 projekt\u016F na t\xE9ma
-    \u201Eroots\u201C (\u010Desky \u201Eko\u0159eny\u201C).\r"
+    vytvo\u0159ilo b\u011Bhem 48 hodin 6 projekt\u016F na t\xE9ma \u201Eroots\u201C
+    (\u010Desky \u201Eko\u0159eny\u201C).\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0c72f673f88ba8a4faa43c47bcfcab46, type: 2}
   m_sharedMaterial: {fileID: -4825523187541599160, guid: 0c72f673f88ba8a4faa43c47bcfcab46, type: 2}
@@ -728,8 +721,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -742,7 +735,7 @@ MonoBehaviour:
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 30
+  m_paragraphSpacing: 70
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
@@ -951,8 +944,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -700, y: 20}
-  m_SizeDelta: {x: 460, y: 540}
+  m_AnchoredPosition: {x: -770.99, y: 100}
+  m_SizeDelta: {x: 318.01, y: 620}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &764557081
 MonoBehaviour:
@@ -1140,10 +1133,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1205673404}
     m_Modifications:
-    - target: {fileID: 183076655893519370, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721592, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: Name
       value: Plantiful
@@ -1162,9 +1151,10 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 9e058cc9f074735429ed304f9c1dd4ba, type: 3}
     - target: {fileID: 4074813080955721592, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: Description
-      value: Prequel to Stardew Valley in which the Grandfather tests your skill
-        before giving you his farm. You must defend his favourite flower from hordes
-        of hungry insects.
+      value: "Prequel ke h\u0159e Stardew Valley, ve kter\xE9 d\u011Bde\u010Dek zkou\u0161\xED
+        va\u0161e schopnosti, ne\u017E v\xE1m sv\u011B\u0159\xED svou farmu. Mus\xEDte
+        ubr\xE1nit jeho obl\xEDbenou kv\u011Btinu p\u0159ed hordami hladov\xE9ho
+        hmyzu. Hra je v Anglick\xE9m jazyce. "
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_Pivot.x
@@ -1196,11 +1186,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 440
+      value: 492
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 330
+      value: 369
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_LocalScale.x
@@ -1244,11 +1234,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1665
+      value: 1642.7
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 180
+      value: 174
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1410,14 +1400,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1205673404}
     m_Modifications:
-    - target: {fileID: 54535770622022085, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 183076655893519370, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721592, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: Name
       value: GemOn
@@ -1436,8 +1418,9 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: fb62bbcb848f40549982dccda774297a, type: 3}
     - target: {fileID: 4074813080955721592, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: Description
-      value: Game about crazy professor and his student. Professor teach his student
-        to make gens mutations in search of human gene roots
+      value: "Hra o \u0161\xEDlen\xE9m profesorovi a jeho studentovi. Profesor u\u010D\xED
+        sv\xE9ho studenta prov\xE1d\u011Bt genetick\xE9 mutace p\u0159i hled\xE1n\xED
+        ko\u0159en\u016F lidsk\xFDch gen\u016F. Hra je v Anglick\xE9m jazyce. "
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_Pivot.x
@@ -1469,11 +1452,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 440
+      value: 492
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 330
+      value: 369
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_LocalScale.x
@@ -1517,11 +1500,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1200
+      value: 1131.55
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -180
+      value: -246
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1542,10 +1525,6 @@ PrefabInstance:
     - target: {fileID: 4074813080955721597, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_Name
       value: GameNum5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8478270201800486691, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
@@ -1774,10 +1753,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1205673404}
     m_Modifications:
-    - target: {fileID: 183076655893519370, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721592, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: Name
       value: Garden Party
@@ -1796,8 +1771,9 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: d8b9eab003596e34f9475b23fb33eae1, type: 3}
     - target: {fileID: 4074813080955721592, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: Description
-      value: Baby Carrot is heading to a party. Would the efforts be successfull?
-        There are many obstacles on the path!
+      value: "Mal\xE1 Mrkvi\u010Dka m\xED\u0159\xED na party. Bude jej\xED snaha
+        \xFAsp\u011B\u0161n\xE1? Po cest\u011B ji \u010Dek\xE1 mnoho p\u0159ek\xE1\u017Eek!
+        Hra je v Anglick\xE9m jazyce."
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_Pivot.x
@@ -1829,11 +1805,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 440
+      value: 492
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 330
+      value: 369
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_LocalScale.x
@@ -1877,11 +1853,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1200
+      value: 1131.55
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 180
+      value: 174
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1912,10 +1888,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1205673404}
     m_Modifications:
-    - target: {fileID: 183076655893519370, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721592, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: Name
       value: I CARRNOT FOR SOUP
@@ -1934,9 +1906,9 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: ab0f484314117a549ae5068e4b4e9803, type: 3}
     - target: {fileID: 4074813080955721592, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: Description
-      value: The game where you as a shopkeeper of a small hobby shop try to sell
-        as many ingredients as you can before your partner cooks them in the carrot
-        soup.
+      value: "Coby majitel mal\xE9ho hobby obch\u016Fdku se sna\u017E\xEDte prodat
+        co nejv\xEDce zeleninov\xFDch ingredienc\xED, ne\u017E je v\xE1\u0161 partner
+        uva\u0159\xED v mrkvov\xE9 pol\xE9vce. Hra je v Anglick\xE9m jazyce. "
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_Pivot.x
@@ -1968,11 +1940,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 440
+      value: 492
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 330
+      value: 369
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_LocalScale.x
@@ -2016,11 +1988,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 735
+      value: 620.39
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -180
+      value: -246
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2438,7 +2410,7 @@ RectTransform:
   m_GameObject: {fileID: 2098233586}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1205673404}
@@ -2446,7 +2418,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 259.5, y: -304}
+  m_AnchoredPosition: {x: 190, y: -260}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2098233588
@@ -2494,6 +2466,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1205673404}
     m_Modifications:
+    - target: {fileID: 4074813080955721592, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
+      propertyPath: Description
+      value: "Interaktivn\xED film o tom jak\xE9 to je b\xFDt ztracen\xFD v lese.
+        Hra je s \u010Desk\xFDmi titulkami."
+      objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2524,11 +2501,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 440
+      value: 492
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 330
+      value: 369
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_LocalScale.x
@@ -2572,11 +2549,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 735
+      value: 620.39
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 180
+      value: 174
       objectReference: {fileID: 0}
     - target: {fileID: 4074813080955721593, guid: c007e0d1df00312428f3af87ea56f90f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
